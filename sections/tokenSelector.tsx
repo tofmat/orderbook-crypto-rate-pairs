@@ -45,6 +45,9 @@ export const TokenSelector: FC<Props> = ({
       <p className="text-[#110d22] text-xl font-semibold px-6">
         Choose Token Pairs
       </p>
+      <p className="text-[#150f2e] text-base px-6">
+        For testing purpose, select WETH against USDC.
+      </p>
       <hr className="my-4" />
 
       <div className="px-6 ">

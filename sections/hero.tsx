@@ -44,9 +44,10 @@ export const HeroSection: FC<Props> = ({
             websocket is triggered that returns a real time update of the order
             book.
             <br /> <br />
-            Please for testing, use only WETH against USDC. P.S (0x Webhook was
-            not functioning at the time of implementation. But it has been
-            implemented regardless)
+            Please for testing, use only{" "}
+            <span className="text-xl font-bold">WETH against USDC.</span> P.S
+            (0x Webhook was not functioning at the time of implementation. But
+            it has been implemented regardless)
           </p>
         </Box>
         <Box flexBasis={["40%", "40%", "40%", "40%"]} flexShrink="0">
